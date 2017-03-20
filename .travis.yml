@@ -14,6 +14,6 @@ python:
 # command to install dependencies
 install: "pip install coveralls"
 # command to run tests
-script: coverage run test_rpy.py
+script: coverage run test_rpy
 after_success:
   coveralls
